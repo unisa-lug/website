@@ -1,1 +1,7 @@
 = UNISA LUG Website
+
++++
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/unisa-lug/website/tree/main&refcode=e66f84da34ec">
+	<img src="https://www.deploytodo.com/do-btn-blue.svg" alt="Deploy to DO">
+</a>
++++
