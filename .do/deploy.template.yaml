@@ -1,0 +1,14 @@
+spec:
+  name: website
+  static_sites:
+  - name: website
+    routes:
+    - path: /
+
+    dockerfile_path: src/container/do-app-builder.dockerfile
+    output_dir: /mnt/projectRoot/build/hugo
+
+    github:
+      repo: unisa-lug/website
+      branch: main
+      deploy_on_push: true
