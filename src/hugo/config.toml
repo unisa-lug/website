@@ -2,4 +2,4 @@ baseURL = "http://lug.qub1750ul.me/"
 languageCode = "it-IT"
 title = "UNISA LUG"
 
-theme = "ananke"
+theme = "cupper-hugo-theme"
