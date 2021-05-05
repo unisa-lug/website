@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "it-IT"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "UNISA LUG"
-
 theme = "cupper-hugo-theme"
