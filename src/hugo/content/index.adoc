@@ -1,0 +1,24 @@
+---
+title: "Home"
+date: 2021-05-05T01:43:56+02:00
+draft: true
+---
+
+== Welcome to UNISA LUG
+
+UNISA LUG is a <<Libreware User Group>> active mainly in the context of the
+https://web.unisa.it[University of Salerno, Italy].
+
+Founded in March 2020 by initiative of three students from the engineering
+district of the university, and supported by many others, it strives to be
+a place where students with focused common interests can find peers to share
+ideas and collaborate on projects.
+
+== Contacts
+Main Telegram Group: https://t.me/unisa_lug
+
+== Disclaimer
+
+"UNISA LUG" is an indipendent student association as prescribed by the Italian
+Law, and may not be officially endorsed by the University of Salerno ( UNISA ).
+See link:"faq.html#endorsement"[ this ] for clarifications.
