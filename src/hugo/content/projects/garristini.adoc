@@ -1,0 +1,19 @@
++++
+title = "Project: GARRistini"
++++
+
+== People
+=== Responsibiles
+
+- Giuseppe Masino
+email: gmasino@unisa-lug.it
+
+- Francesco Dinucci
+email: fdinucci@unisa-lug.it
+
+- Luca Topo
+email: ltopo@unisa-lug.it
+
+=== Partecipants
+
+== Details

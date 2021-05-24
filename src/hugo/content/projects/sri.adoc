@@ -1,0 +1,62 @@
++++
+title = "Student Resource Index"
++++
+
+== Learning Resources
+
+*_Live as if you were to die tomorrow. Learn as if you were to live forever._*
+
+:toc:
+:homepage: https://unisa-lug.github.io
+{homepage}[Torna alla home]
+
+A simple list of resources to keep on learning.
+
+== Aggregate resources
+Links that are a collection of useful resources.
+
+=== Websites
+
+==== free-programming-ebooks (GitHub)
+Tons of freely (and legally) available resources to learn about programming and ICT.
+https://ebookfoundation.github.io/[Visit the project on GitHub]
+
+==== Floss Manuals
+CC-BY-SA manuals about free softwares.
+https://flossmanuals.net/[Visit Floss Manuals Website]
+
+== Roadmaps
+Some roadmaps to know what, how and in what order learn to become a developer or learn a new technology.
+
+=== Websites
+
+==== Developer Roadmaps
+Guides and paths to learn technologies and/or become a developer in a particular sector.
+https://roadmap.sh/[Visit roadmap.sh]
+
+== Selected Resources
+Aggregate resources are great, but sometimes you need a more precise hint.
+
+=== Beginner
+
+==== Linux Journey
+Linux from zero for totally beginner. Step by step from installing and using a Linux distro to digging under the hood.
+https://linuxjourney.com/[Visit Linux Journey]
+
+==== Linux Survival
+Survival guide with quizs on the Linux command line.
+https://linuxsurvival.com/[VIsit Linux Survival]
+
+==== Linux Tutorials @ Ryans Tutorials
+Beginner guide to Linux command line.
+https://ryanstutorials.net/linuxtutorial/[Visit at Ryanstutorials']
+
+=== Intermediate
+
+_WIP..._
+
+=== Expert
+
+_WIP..._
+
+{homepage}[Torna alla home]

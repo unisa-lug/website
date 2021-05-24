@@ -1,0 +1,63 @@
++++
+title = "Association"
++++
+
+IMPORTANT: The italian law mandates that a legally valid associaton must declare
+a constitution act, a fundamental regulation document and a steering council. +
+Nevertheless, given the current social situation, it hasn't been possible to
+give course to the required proceedings. +
+At the moment the founders have formed a temporary steering committee that
+incorporates various roles in the association, until the coming of better times.
+
+
+
+== The Board of Directors
+
+The decisional core of the association. +
+It's composed by the president, treasurer, secretary, community administrators,
+community moderators. +
+Right to partecipate is also given to executive honorary members and the
+original founders, in the role of advisors.
+
+=== Members
+
+- Giuseppe Masino +
+  Title: Founder | Role: Co-Director, Community Administrator, Technical Administrator +
+  Afference: UNISA, DIEM, BS Informatics Engineering +
+  Contacts: https://t.me/qub1750ul[Telegram], mailto:personal.gmasino@pm.me[Email]
+
+- Luca Topo +
+  Title: Founder | Role: Co-Director, Community Administrator, Technical Administrator +
+  Afference: UNISA, DI, BS Computer Science +
+	Contacts: https://t.me/zekromaster[Telegram], mailto:personal@zekromaster.net[Email]
+
+- Francesco Dinucci +
+  Title: Founder | Role: Co-Director, Community Administrator +
+  Afference: UNISA, DIIN, BS Mechanical Engineering
+
+- Emanuele D'Amico +
+  Title: Early Member | Role: Advisor, Community Moderator +
+  Afference: UNISA, DIIN, BS Mechanical Engineering
+
+- Luca Castaldi +
+  Title: Early Member | Role: Advisor, Community Moderator +
+  Afference: UNISA, DIIN, BS Electronic Engineering
+
+== The Community Council
+
+It's a group of users interested in shaping the future of the community, it
+includes the <<Board of Directors>>.
+
+=== Members
+
+- Marco Russo +
+  Title: Early Member | Role: Advisor +
+  Afference: UNISA, DIEM, BS Informatics Engineering
+
+- Emanuele Bombardelli +
+  Title: Early Member | Role: Advisor +
+  Afference: UNISA, DI, BS Computer Science
+
+- Alessandro Buccato +
+  Title: Early Member | Role: Advisor +
+  Afference: UNISA, DIIN, MS Electronic Engineering

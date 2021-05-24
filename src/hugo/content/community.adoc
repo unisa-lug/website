@@ -1,0 +1,34 @@
++++
+title = "Community"
++++
+
+See where our community gaethers
+
+:toc:
+
+== Github
+
+https://github.com/unisa-lug
+
+== Telegram
+
+- https://t.me/unisa_lug[UNISA LUG / Chat] +
+The main group. +
+This is where the majority of discussions take place.
+
+- https://t.me/unisa_lug_bbs[UNISA LUG / BBS] +
+Our virtual bulletin board. +
+It's a Telegram channel that archives announcements and fixed messages,
+neatly separated from the general noise of the main group.
+
+- UNISA LUG / EWG (Evolution Working Group) +
+The group where decisions are taken. +
+This group supports the link:/association#community-council[Community Council].
+
+- UNISA LUG / Workers +
+The main coordination group for operative task-forces. +
+This is the place where link:/projects[community projects] are discussed. +
+To enter one must propose a project or be invited into one.
+
+- https://t.me/joinchat/IEteuYnUR6lhMWVk[UNISA LUG / Off-topic] +
+The place where the discussion goes wild!

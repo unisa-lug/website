@@ -1,0 +1,55 @@
++++
+title = "FAQs"
++++
+
+:toc:
+
+== General FAQ
+
+.Who are you ?
+We're a group of students from the
+link:https://web.unisa.it[University of Salerno], Italy. +
+What brings us togheter is our shared interest in informatics, electronics,
+FLOSS phylosophy, and good company.
+
+The group was informally founded on 2020-03-19, in the middle of the nation-wide
+quarantine to contain the outbreak of the SARS-CoV-19 virus, as a public
+Telegram group. +
+In a few days the group counted 50 members coming both from the engineering
+district and the informatics department of the university.
+
+.Is this a Linux User Group ( LUG ) ?
+Yes, but we pretend to be fancier. +
+See <<What does "UNISA LUG" mean ?>>.
+
+.What does "UNISA LUG" mean ?
+The name is an acronym for "UNISA Libreware User Group". +
+The term "Libreware" here generically means "all things FLOSS-related",
+and has nothing to do with link:https://libreware.info[the homonymous company].
+
+.What's the difference with a classic LUG ?
+We are not strictly Linux die-hards, but like libre technology in general.
+
+.Are you endorsed by UNISA ?
+No. +
+Altrough we seek to be officially recognized by the University,
+"UNISA LUG" is an indipendent association as prescribed by the Italian Law. +
+Unless when explicitly specified, "UNISA LUG" activities and statements are
+performed under it's sole and full responsibility and not to be considered
+endorsed by the University of Salerno ( UNISA ).
+
+.What about HCSSLUG ?
+HCSS LUG ( Hippocratica Civitas Studium Salerni LUG ) was a very similar
+initiative to ours, that unfortunately ceased it's activities a few years prior
+to our coming to the University of Salerno. +
+We had brief exchanges with the founders, who haven't agreed for us to directly
+bring upon their legacy. +
+Our paths have been separated ever since.
+
+== Glossary FAQ
+
+.In general what is a LUG ?
+LUG is an acronym for "Linux User Group".
+It generally identifies a group of people who employ Linux-based Operating
+Systems for a hobby or more.
+
