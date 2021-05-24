@@ -1,8 +1,7 @@
----
-title: "Home"
-date: 2021-05-05T01:43:56+02:00
-draft: false
----
++++
+title = "Home"
+layout = "index"
++++
 
 == Welcome to UNISA LUG
 
@@ -15,10 +14,14 @@ a place where students with focused common interests can find peers to share
 ideas and collaborate on projects.
 
 == Contacts
-Main Telegram Group: https://t.me/unisa_lug
+
+Email: mailto:info@unisa-lug.it
+
+See also the link:/community[Community page]
 
 == Disclaimer
 
 "UNISA LUG" is an indipendent student association as prescribed by the Italian
-Law, and may not be officially endorsed by the University of Salerno ( UNISA ).
-See link:"faq.html#endorsement"[ this ] for clarifications.
+Law, and may not be officially endorsed by the University of Salerno ( UNISA ). +
+See link:"faq.html#endorsement"[this] for clarifications.
+
