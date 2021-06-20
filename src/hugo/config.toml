@@ -3,7 +3,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "UNISA LUG"
 theme = "cupper-hugo-theme"
-enableGitInfo = "true"
+enableGitInfo = true
+enableInlineShortcodes = true
 
 [params]
 

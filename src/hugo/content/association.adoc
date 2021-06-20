@@ -9,8 +9,6 @@ give course to the required proceedings. +
 At the moment the founders have formed a temporary steering committee that
 incorporates various roles in the association, until the coming of better times.
 
-
-
 == The Board of Directors
 
 The decisional core of the association. +
@@ -21,27 +19,10 @@ original founders, in the role of advisors.
 
 === Members
 
-- Giuseppe Masino +
-  Title: Founder | Role: Co-Director, Community Administrator, Technical Administrator +
-  Afference: UNISA, DIEM, BS Informatics Engineering +
-  Contacts: https://t.me/qub1750ul[Telegram], mailto:personal.gmasino@pm.me[Email]
-
-- Luca Topo +
-  Title: Founder | Role: Co-Director, Community Administrator, Technical Administrator +
-  Afference: UNISA, DI, BS Computer Science +
-	Contacts: https://t.me/zekromaster[Telegram], mailto:personal@zekromaster.net[Email]
-
-- Francesco Dinucci +
-  Title: Founder | Role: Co-Director, Community Administrator +
-  Afference: UNISA, DIIN, BS Mechanical Engineering
-
-- Emanuele D'Amico +
-  Title: Early Member | Role: Advisor, Community Moderator +
-  Afference: UNISA, DIIN, BS Mechanical Engineering
-
-- Luca Castaldi +
-  Title: Early Member | Role: Advisor, Community Moderator +
-  Afference: UNISA, DIIN, BS Electronic Engineering
+{{< directorsList.inline >}}
+	{{ .Scratch.Set "memberListFilter_byRole" ( slice "Co-Director" ) }}
+	{{ partial "memberCardList.html" . }}
+{{< /directorsList.inline >}}
 
 == The Community Council
 
@@ -50,14 +31,7 @@ includes the <<Board of Directors>>.
 
 === Members
 
-- Marco Russo +
-  Title: Early Member | Role: Advisor +
-  Afference: UNISA, DIEM, BS Informatics Engineering
-
-- Emanuele Bombardelli +
-  Title: Early Member | Role: Advisor +
-  Afference: UNISA, DI, BS Computer Science
-
-- Alessandro Buccato +
-  Title: Early Member | Role: Advisor +
-  Afference: UNISA, DIIN, MS Electronic Engineering
+{{< advisorsList.inline >}}
+	{{ .Scratch.Set "memberListFilter_byRole" ( slice "Advisor" ) }}	
+	{{ partial "memberCardList.html" . }}
+{{< /advisorsList.inline >}}
