@@ -1,0 +1,157 @@
+[
+	{
+		"name": "Giuseppe Masino",
+		"titles": [
+			"Founder"
+		],
+		"roles": [
+			"Co-Director",
+			"Community Administrator",
+			"Technical Administrator"
+		],
+		"afference": "UNISA, DIEM, BS Informatics Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/qub1750ul"
+			},
+			{
+				"type": "Email",
+				"uri": "mailto:personal.gmasino@pm.me"
+			}
+		]
+	},
+	{
+		"name": "Luca Topo",
+		"titles": [
+			"Founder"
+		],
+		"roles": [
+			"Co-Director",
+			"Community Administrator",
+			"Technical Administrator"
+		],
+		"afference": "UNISA, DI, BS Computer Science",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/zekromaster"
+			},
+			{
+				"type": "Email",
+				"uri": "mailto:personal@zekromaster.net"
+			}
+		]
+	},
+	{
+		"name": "Fracesco Dinucci",
+		"titles": [
+			"Founder"
+		],
+		"roles": [
+			"Co-Director",
+			"Community Administrator"
+		],
+		"afference": "UNISA, DIIN, BS Mechanical Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/fdinucci"
+			},
+			{
+				"type": "Email",
+				"uri": "mailto:f.dinucci@studenti.unisa.it"
+			}
+		]
+	},
+	{
+		"name": "Emanuele D'Amico",
+		"titles": [
+			"Early Member"
+		],
+		"roles": [
+			"Advisor",
+			"Community Moderator"
+		],
+		"afference": "UNISA, DIIN, BS Mechanical Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/PioApocalypse"
+			},
+			{
+				"type": "Email",
+				"uri": "mailto:e.damico@studenti.unisa.it"
+			}
+		]
+	},
+	{
+		"name": "Luca Castaldi",
+		"titles": [
+			"Early Member"
+		],
+		"roles": [
+			"Advisor",
+			"Community Moderator"
+		],
+		"afference": "UNISA, DIIN, BS Electronics Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/castaldil"
+			},
+			{
+				"type": "Email",
+				"uri": "mailto:l.castaldi@studenti.unisa.it"
+			}
+		]
+	},
+	{
+		"name": "Marco Russo",
+		"titles": [
+			"Early Member"
+		],
+		"roles": [
+			"Advisor"
+		],
+		"afference": "UNISA, DIEM, BS Informatics Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/somethingsomethingsomething420"
+			}
+		]
+	},
+	{
+		"name": "Emanuele Bombardelli",
+		"titles": [
+			"Early Member"
+		],
+		"roles": [
+			"Advisor"
+		],
+		"afference": "UNISA, DI, BS Computer Science",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/Bombaclath97"
+			}
+		]
+	},
+	{
+		"name": "Alessandro Buccato",
+		"titles": [
+			"Early Member"
+		],
+		"roles": [
+			"Advisor"
+		],
+		"afference": "UNISA, DIIN, MS Electronics Engineering",
+		"contacts": [
+			{
+				"type": "Telegram",
+				"uri": "https://t.me/bcclsn"
+			}
+		]
+	}
+]

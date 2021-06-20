@@ -1,0 +1,19 @@
+{{/* Display a list of memberCards, optionally filtered */}}
+
+<ul>
+	{{/* Because of Hugo build optimizations, variables need to be */}}
+	{{/* passed using the .Scratch context                         */}}
+	{{ with $roleFilter := .Scratch.Get "memberListFilter_byRole" }}
+
+		{{ range where $.Site.Data.association.members "roles" "intersect" $roleFilter }}
+			<li> {{ partial "memberCard.html" . }} </li>
+		{{ end }}
+	
+	{{ else }}
+	
+		{{ range $.Site.Data.association.members }}
+			<li> {{ partial "memberCard.html" . }} </li>
+		{{ end }}
+	
+	{{ end }}
+</ul>

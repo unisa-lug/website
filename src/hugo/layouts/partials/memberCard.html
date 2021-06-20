@@ -1,0 +1,13 @@
+{{ .name }} <br>
+
+Title:     {{ delimit .titles ", " }} <br>
+Role:      {{ delimit .roles ", "  }} <br>
+Afference: {{ .afference }}           <br>
+
+Contacts:
+	{{ $html := slice }}
+	{{ range .contacts }}
+		{{ $html = $html | append ( printf "<a href=\"%s\">%s</a>" .uri .type ) }}
+	{{ end }}
+	{{ delimit $html ", " }}
+<br>
