@@ -1,13 +1,48 @@
-{{ .name }} <br>
+{{/* Display a memberCard, optionally filtered */}}
 
-Title:     {{ delimit .titles ", " }} <br>
-Role:      {{ delimit .roles ", "  }} <br>
-Afference: {{ .afference }}           <br>
+{{ $allFields := slice "titles" "roles" "afference" "contacts" }}
+{{ $filter := default $allFields .filter }}
 
-Contacts:
-	{{ $html := slice }}
-	{{ range .contacts }}
-		{{ $html = $html | append ( printf "<a href=\"%s\">%s</a>" .uri .type ) }}
+{{ .member.name }} <br>
+
+{{ if in $filter "titles" }}
+
+	{{/* WORKAROUND: Force cast of .member.titles to []String */}}
+	{{/* otherwise `delimit .member.titles ", "` won't work   */}}
+	{{ $titles := slice }}
+	{{ range .member.titles }}
+		{{ $titles = $titles | append . }}
 	{{ end }}
-	{{ delimit $html ", " }}
-<br>
+
+	Title: {{ delimit $titles ", " }} <br>
+
+{{ end }}
+
+{{ if in $filter "roles" }}
+
+	{{/* WORKAROUND: Force cast of .member.roles to []String */}}
+	{{/* otherwise `delimit .member.roles ", "` won't work   */}}
+	{{ $roles := slice }}
+	{{ range .member.roles }}
+		{{ $roles = $roles | append . }}
+	{{ end }}
+	
+	Roles: {{ delimit $roles ", " }} <br>
+
+{{ end }}
+
+{{ if in $filter "afference" }}
+	Afference: {{ .member.afference }} <br>
+{{ end }}
+
+{{ if in $filter "contacts" }}
+
+	Contacts:
+	{{ $list := slice }}
+	{{ range .member.contacts }}
+		{{ $list = $list | append ( printf "<a href=\"%s\">%s</a>" .uri .type ) }}
+	{{ end }}
+	{{ delimit $list ", " }}
+	<br>
+
+{{ end }}

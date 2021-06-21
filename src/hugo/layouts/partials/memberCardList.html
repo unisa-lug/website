@@ -1,18 +1,31 @@
 {{/* Display a list of memberCards, optionally filtered */}}
 
-<ul>
-	{{/* Because of Hugo build optimizations, variables need to be */}}
-	{{/* passed using the .Scratch context                         */}}
-	{{ with $roleFilter := .Scratch.Get "memberListFilter_byRole" }}
+{{ $memberData := $.Site.Data.association.members        }}
+{{ $nameFilter := .Scratch.Get "memberListFilter_byName" }}
+{{ $roleFilter := .Scratch.Get "memberListFilter_byRole" }}
 
-		{{ range where $.Site.Data.association.members "roles" "intersect" $roleFilter }}
-			<li> {{ partial "memberCard.html" . }} </li>
+{{ $memberCardCtx := dict "filter" ( .Scratch.Get "memberCardFilter_byAttr" ) }}
+
+<ul>
+	{{ if $nameFilter }}
+
+		{{ range where $memberData "name" "in" $nameFilter }}
+			{{ $memberCardCtx = merge $memberCardCtx ( dict "member" . ) }}
+			<li> {{ partial "memberCard.html" $memberCardCtx }} </li>
+		{{ end }}
+
+	{{ else if $roleFilter }}
+
+		{{ range where $memberData "roles" "intersect" $roleFilter }}
+			{{ $memberCardCtx = merge $memberCardCtx ( dict "member" . ) }}
+			<li> {{ partial "memberCard.html" $memberCardCtx }} </li>
 		{{ end }}
 	
 	{{ else }}
 	
-		{{ range $.Site.Data.association.members }}
-			<li> {{ partial "memberCard.html" . }} </li>
+		{{ range $memberData }}
+			{{ $memberCardCtx = merge $memberCardCtx ( dict "member" . ) }}
+			<li> {{ partial "memberCard.html" $memberCardCtx }} </li>
 		{{ end }}
 	
 	{{ end }}
