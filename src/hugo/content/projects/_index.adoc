@@ -13,21 +13,17 @@ link:/projects/sri[PROJECT_PAGE]
 
 == External
 
-- The GARRistini project: a collaboration with GARRLab +
-GARRLab is an informal community made up by an increasing number of technician
-and students who are somehow related to GARR - our Italian NREN.
+- link:garristini[GARRistini] +
+GARRistini is an initiatiative in collaboration with
+link:https://www.garrlab.it[GARRLab],
+born with the intention to form an informal community made up by an increasing
+number of technician and academic students exploiting the resources of
+link:https://garr.it[GARR: the Italian NREN].
 +
-We have a very simple mandate: leveraging the bleeding-edge infrastructures
-provided by GARR to foster our knowledge in a wide range of ICT technologies
-(networking, system and network infrastructure management, 
-cloud-based CI/CD git-assisted - aka: GitOps, system and network security,
-…and lots of other things).
-+
-Our mission is simple: simplify our daily work (we, technicians) and put our
-hands on top-knotch systems and equipments (we, students)
-+
-link:/projects/garristini[PROJECT_PAGE] |
-https://garristini.garrlab.it[PROJECT_SITE]
+We have a very simple mandate: +
+leveraging the bleeding-edge infrastructures provided by GARR to foster our
+knowledge in a wide range of ICT technologies like:
+Networking, Infrastructure management, GitOps, Security, …and lots of other things.
 
 == Historical
 
