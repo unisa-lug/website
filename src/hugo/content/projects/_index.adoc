@@ -5,13 +5,13 @@ layout = "single"
 
 == Internal
 
-- link:sri[Student Resource Index] +
+- link:/projects/sri[Student Resource Index] +
 An "Awesome List" of various resources that can be helpful to LUG users and
 UNISA students in general.
 
 == External
 
-- link:garristini[GARRistini] +
+- link:/projects/garristini[GARRistini] +
 GARRistini is an initiatiative in collaboration with
 link:https://www.garrlab.it[GARRLab],
 born with the intention to form an informal community made up by an increasing
@@ -25,7 +25,7 @@ Networking, Infrastructure management, GitOps, Security, …and lots of other th
 
 == Historical
 
-- link:mokafeteria[Mokafeteria] +
+- link:/projects/mokafeteria[Mokafeteria] +
 An implementation of an automation and management system for public refectories,
 managed either by universities or private entities. +
 The MVP must be able to replace the informatic systems of the main refectory of
