@@ -5,11 +5,9 @@ layout = "single"
 
 == Internal
 
-- Student Resource Index +
+- link:sri[Student Resource Index] +
 An "Awesome List" of various resources that can be helpful to LUG users and
 UNISA students in general.
-+
-link:/projects/sri[PROJECT_PAGE]
 
 == External
 
@@ -27,13 +25,11 @@ Networking, Infrastructure management, GitOps, Security, …and lots of other th
 
 == Historical
 
-- Mokafeteria +
+- link:mokafeteria[Mokafeteria] +
 An implementation of an automation and management system for public refectories,
 managed either by universities or private entities. +
 The MVP must be able to replace the informatic systems of the main refectory of
 the University of Salerno.
-+
-link:/projects/mokafeteria[PROJECT_PAGE]
 
 == Proposals
 
