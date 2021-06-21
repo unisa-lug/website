@@ -5,15 +5,48 @@ title = "Project: GARRistini"
 == People
 === Responsibiles
 
-- Giuseppe Masino
-email: gmasino@unisa-lug.it
+{{< responsiblesList.inline >}}
 
-- Francesco Dinucci
-email: fdinucci@unisa-lug.it
+	{{
+		.Scratch.Set "memberListFilter_byName" ( slice
+			"Giuseppe Masino"
+			"Francesco Dinucci"
+			"Luca Topo"
+		)
+	}}
+	{{ .Scratch.Set "memberCardFilter_byAttr" ( slice "contacts" ) }}
+	
+	{{ partial "memberCardList.html" . }}
 
-- Luca Topo
-email: ltopo@unisa-lug.it
+{{< /responsiblesList.inline >}}
 
 === Partecipants
 
+{{< partecipantsList.inline >}}
+	
+	{{
+		.Scratch.Set "memberListFilter_byName" ( slice
+			"Marco Russo"
+		)
+	}}
+	{{ .Scratch.Set "memberCardFilter_byAttr" ( slice "Contacts" ) }}
+
+	{{ partial "memberCardList.html" . }}
+
+{{< /partecipantsList.inline >}}
+
 == Details
+
+GARRLab is an informal community made up by an increasing number of technician
+and students who are somehow related to GARR - our Italian NREN.
+
+We have a very simple mandate: leveraging the bleeding-edge infrastructures
+provided by GARR to foster our knowledge in a wide range of ICT technologies
+(networking, system and network infrastructure management, 
+cloud-based CI/CD git-assisted - aka: GitOps, system and network security,
+…and lots of other things).
+
+Our mission is simple: simplify our daily work (we, technicians) and put our
+hands on top-knotch systems and equipments (we, students)
+
+https://garristini.garrlab.it[PROJECT_SITE]
