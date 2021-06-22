@@ -1,0 +1,25 @@
++++
+title = "Project: Mokafeteria"
++++
+
+== Local referents
+
+{{< referentsList.inline >}}
+
+	{{ .Scratch.Set "memberListFilter_byName" ( slice "Luca Topo" ) }}
+	{{ .Scratch.Set "memberCardFilter_byAttr" ( slice "contacts" )  }}
+
+	{{ partialCached "memberCardList.html" . }}
+
+{{< /referentsList.inline >}}
+
+== Links
+
+https://github.com/unisa-lug/Mockafeteria-Documentation[OFFICIAL_REPOSITORY]
+
+== Details
+
+An implementation of an automation and management system for public refectories,
+managed either by universities or private entities. +
+The MVP must be able to replace the informatic systems of the main refectory of
+the University of Salerno.
