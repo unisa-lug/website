@@ -1,3 +1,4 @@
+publishDir = "../../build/hugo"
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
