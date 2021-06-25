@@ -1,0 +1,16 @@
++++
+title = "Enabling 2FA on UNISA web logins"
++++
+
+WARNING: This procedure is not officially supported by the university systems. +
+Altrough it has been tested by the author, we do not give any guarantee on it's
+effectiveness or compliance with current regulations. +
+We recommed reviewing the disclaimer on the 
+link:{{< ref "/projects/unisa-opendev#_Disclaimer" >}}[project home page]
+before taking any
+action. +
+Proceed at your own risk.
+
+== Details
+
+Access the Microsoft Cloud

@@ -1,0 +1,57 @@
++++
+title = "UNISA OpenDev: Libraries"
+toc = true
++++
+:toc:
+
+== Overview
+
+=== Official public facing services
+
+- <<HTTP Proxy and access to reserved resources>>
+- <<ARIEL>>
+
+=== Hidden accessible services
+=== Accessible backends
+
+- <<ExLibris Aleph>>
+
+== Details
+
+[#proxy]
+=== HTTP Proxy and access to reserved resources
+
+The CBA implements an HTTP Proxy Service that gives access both to the campus
+intranet and a number of
+link:https://www.biblioteche.unisa.it/cataloghi-e-risorse/banche-dati[external resources that require academic credentials].
+
+The official configuration procedure consists in installing a
+link:https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file[PAC file]
+in the user's browser. +
+After that, all requests for relevant resources will be rerouted through
+https://proxy.unisa.it, that proceeds to authenticate the user using
+link:{{< relref "onprem#_UNISA_SSO" >}}[UNISA SSO]
+and then establish a communication channel with the approriate server.
+
+== ExLibris Aleph
+
+[#ariel]
+== ARIEL
+
+A.RI.EL.
+( "Accesso alle Risorse Elettroniche", lit. "Access to Electronic Resources" ) +
+is the main web UI to the telematic services of the CBA.
+
+It is commonly found running in kiosk mode on the libraries' physical terminals,
+and is accessible on the public internet at https://ariel.unisa.it.
+
+== ELEA
+
+EleA ( Electronic Access ) is the open web archive of the university.
+It stores:
+
+- Doctoral Thesis
+- Some open-access scientific magazines
+- Working papers
+
+https://elea.unisa.it

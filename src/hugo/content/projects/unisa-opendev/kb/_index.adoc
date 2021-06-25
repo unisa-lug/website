@@ -1,0 +1,25 @@
++++
+title = "UNISA OpenDev: Knowledge Base"
+layout = "single"
++++
+
+== By service
+
+- link:{{< relref "onprem#unisa_lezioni" >}}[ Attendance Portal ]
+- link:{{< relref "cineca#esse3"     >}}[ User portal     ]
+- link:{{< relref "gsuite#gmail"     >}}[ Email           ]
+- link:{{< relref "onprem#eduroam"   >}}[ Internet access ]
+- link:{{< relref "onprem#directory" >}}[ Directory       ]
+- link:{{< relref "cba#ariel"        >}}[ Library portal  ]
+
+== By area
+
+- link:{{< relref onprem >}}[ Attendance information ]
+- link:{{< relref onprem >}}[ Career information     ]
+- link:{{< relref cba    >}}[ University Libraries   ]
+
+== By relation
+
+- link:{{< relref gsuite  >}}[ GSuite            ]
+- link:{{< relref mscloud >}}[ MS Academic Suite ]
+- link:{{< relref cba     >}}[ ExLibris Suite    ]

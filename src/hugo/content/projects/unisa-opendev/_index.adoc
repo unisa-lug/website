@@ -1,0 +1,66 @@
++++
+title = "Project: UNISA OpenDev"
+layout = "single"
++++
+
+== Local referents
+
+{{< referentsList.inline >}}
+
+	{{
+		.Scratch.Set "memberListFilter_byName" ( slice
+			"Giuseppe Masino"
+			"Francesco Dinucci"
+			"Luca Topo"
+		)
+	}}
+	{{ .Scratch.Set "memberCardFilter_byAttr" ( slice "contacts" ) }}
+	
+	{{ partial "memberCardList.html" . }}
+
+{{< /referentsList.inline >}}
+
+== Introduction
+
+UNISA OpenDev is a community technical documentation project about the
+informatic services of the University of Salerno.
+
+== Disclaimer
+
+FIXME: Elaborate a better disclaimer
+
+IMPORTANT: Read this disclaimer with attention, if you do not agree with any
+of it's terms we invite you to not navigate this site further.
+
+This site is a collection of solely publicly available information,
+obtained by standard means. +
+UNISA LUG does not give any guarantee about the completeness, reliability and
+accuracy of this information. +
+Any action you take upon the information you find on this website is strictly at
+your own risk. +
+UNISA LUG will not be liable for any losses and/or damages in connection with
+the use of our website.
+
+We warn you that the exploitation of any information present in this site may be
+subject to the respect of
+link:https://web.unisa.it/ateneo/normativa/regolamenti[
+regulations by the University of Salerno].
+
+In particular the following are to be taken into consideration:
+
+- Regolamento per l'utilizzo delle risorse informatiche, internet e posta elettronica	
+- Regolamento Canali di Comunicazione	
+- Regolamento di Utilizzo dei Servizi Informatici e di Rete
+- Regolamento di Utilizzo dei Servizi Informatici e di Rete - Norme Attuative
+
+The full text of all the previous can be found at
+link:https://web.unisa.it/ateneo/normativa/regolamenti[ this URL ]
+
+By letting you navigate this site further, UNISA LUG assumes you accept to
+fully comply and not held us liable for any damage or disruption of service
+possibly related to the information present in this site.
+
+== Links
+
+- link:{{< relref kb >}}[ Knowledge Base ]
+- link:{{< relref tutorials >}}[ Tutorials ]
