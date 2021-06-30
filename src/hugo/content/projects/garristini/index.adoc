@@ -11,7 +11,7 @@ image::logo.svg[Project Logo]
 	{{
 		.Scratch.Set "memberListFilter_byName" ( slice
 			"Giuseppe Masino"
-			"Francesco Dinucci"
+			"Francesco Di Nucci"
 			"Luca Topo"
 		)
 	}}
